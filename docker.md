@@ -1,5 +1,5 @@
 docker常用指令
-
+```bash
 // 搜索可用docker
 docker search xxxx
 
@@ -21,6 +21,7 @@ docker ps -a
 // 查看详细状态
 docker  inspect dockerID
 docker ps参数选项说明：
+```
 
 CONTAINER ID：容器ID
 IMAGE：镜像名称
