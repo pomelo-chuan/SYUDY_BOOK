@@ -16,3 +16,7 @@ $ dpkg -i [package.deb]
 $ chmod -R 777 [file]
 ```
 
+#### 复制文件
+```bash
+$ cp [file] [targetPath]
+```

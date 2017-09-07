@@ -20,26 +20,32 @@ docker ps
 // 查看所有容器，包括未运行的
 docker ps -a
 
+// 停止正在运行的容器
+docker stop id
+
+// 删除容器
+docker rm id
+
 // 查看详细状态
-docker  inspect dockerID
-docker ps参数选项说明：
+docker  inspect id
 ```
+#### docker ps参数选项说明：
 
-CONTAINER ID：容器ID
+1. CONTAINER ID：容器ID
 
-IMAGE：镜像名称
+2. IMAGE：镜像名称
 
-COMMAND：指令
+3. COMMAND：指令
 
-CREATED：镜像创建时间
+4. CREATED：镜像创建时间
 
-STATUS：状态
+5. STATUS：状态
 
-PORTS：端口
+6. PORTS：端口
 
-NAMES：镜像名
+7. NAMES：镜像名
 
-创建镜像
+#### 创建镜像
 
 从已经创建的容器中更新镜像，并且提交这个镜像
 
