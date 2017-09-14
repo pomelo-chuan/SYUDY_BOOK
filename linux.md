@@ -20,3 +20,13 @@ $ chmod -R 777 [file]
 ```bash
 $ cp [file] [targetPath]
 ```
+
+#### 重命名文件
+```bash
+$ mv [file] [targetName]
+```
+
+#### 移动文件
+```bash
+$ mv [file] [targetPath]
+```
