@@ -30,3 +30,13 @@ $ mv [file] [targetName]
 ```bash
 $ mv [file] [targetPath]
 ```
+
+#### 修改文件字符
+```bash
+$ sed -i "s/nameA/nameB/g" [file name]
+```
+
+#### 显示文件树
+```bash
+$ tree -L 2
+```

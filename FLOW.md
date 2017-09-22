@@ -1,7 +1,7 @@
 FLOW
 ---
 
-####flow 支持的原始数据类型：
+#### flow 支持的原始数据类型：
 
 1. boolean
 2. number
