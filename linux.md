@@ -40,3 +40,13 @@ $ sed -i "s/nameA/nameB/g" [file name]
 ```bash
 $ tree -L 2
 ```
+
+#### 解压tar.gz
+```
+$ tar -xzvf [fileName.tar.gz]
+```
+
+#### 解压tar.bz2 
+```bash
+$ tar -jxvf  [fileName.tar.bz2]
+```
