@@ -52,3 +52,10 @@ $ tar -xzvf [fileName.tar.gz]
 $ tar -jxvf  [fileName.tar.bz2]
 ```
 
+#### 查看文件大小
+```bash
+# 所有文件
+$ du -h 
+# 包含子目录
+$ du -ah
+```
