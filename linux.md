@@ -60,3 +60,7 @@ $ du -h
 $ du -ah
 ```
 
+#### tail
+```bash
+$ tail -n 20 file.name
+```
